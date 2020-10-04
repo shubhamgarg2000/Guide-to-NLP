@@ -1,5 +1,6 @@
 # Importing the libraries
 import numpy as np
+import pandas as pd
 import nltk
 import re
 import pickle
