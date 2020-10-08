@@ -8,7 +8,7 @@ import pickle
 from nltk.corpus import stopwords
 from sklearn.datasets import load_files
 nltk.download('stopwords')
-reviews=load_files('C:\\Users\\indu\\Documents\\ML\\NLP\\txt_sentoken')
+reviews=load_files(os.path.join(BASE_DIR, 'txt_sentoken')
 X,y=reviews.data,reviews.target
 #nltk==natural lamguage tool kit
 #stopwords==is,a,an,the
