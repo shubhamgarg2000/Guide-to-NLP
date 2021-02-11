@@ -73,3 +73,4 @@ with open('TFidf.pickle','wb') as f:
 from sklearn.metrics import confusion_matrix
 cm=confusion_matrix(y_pred,y_test)
 sample=['this is a good guy,have a great life']
+#WORKING CODE
